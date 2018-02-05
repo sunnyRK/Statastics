@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.classify.statastics.MainActivity"
+    android:fitsSystemWindows="true">
+
+            <RelativeLayout
+                android:id="@+id/toolbarsdfs"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/slant"
+                android:transitionName="slant_view"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_menu_white_24dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/relative"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:layout_alignParentRight="true"
+                    android:transitionName="logo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PATIENTS LIST"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="18dp"
+                    android:fontFamily="sans-serif"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STATUS"
+                    android:textColor="#6F96F0"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"/>
+
+            </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/home_recycle"
+        android:layout_marginTop="120dp"
+        android:background="#FFF"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_white_24dp"
+        android:background="@drawable/slant"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"/>
+
+
+</RelativeLayout>

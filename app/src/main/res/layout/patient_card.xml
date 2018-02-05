@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_patient">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/patient_logo"
+        android:padding="10dp"
+        android:src="@drawable/relative"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/patient_name"
+        android:text="MIHIR SATA"
+        android:layout_toRightOf="@+id/patient_logo"
+        android:textSize="15dp"
+        android:padding="20dp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:text="status"
+        android:textSize="15dp"
+        android:padding="20dp"
+        android:textColor="#000"
+        android:layout_alignParentEnd="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/status"
+        android:layout_marginTop="5dp"
+        android:background="#EEE "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+</RelativeLayout>

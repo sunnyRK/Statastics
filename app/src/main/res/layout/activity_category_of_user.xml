@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.classify.statastics.CategoryOfUser">
+
+    <RelativeLayout
+        android:id="@+id/homeView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/slant"
+        android:layout_marginBottom="20dp"
+        android:transitionName="slant_view"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Select One of the below"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <ImageButton
+        android:id="@+id/img_relative"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/img_doc"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="19dp"
+        android:background="#FFF"
+        android:scaleType="fitCenter"
+        android:tooltipText="Relative"
+        android:src="@drawable/relative" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/img_doc"
+        android:background="#FFF"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img_relative"
+        android:layout_margin="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/doc"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/img_nurse"
+        android:background="#FFF"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img_doc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/nurse"/>
+
+
+</RelativeLayout>

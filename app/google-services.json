@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1056001313592",
+    "firebase_url": "https://talks-66a5d.firebaseio.com",
+    "project_id": "talks-66a5d",
+    "storage_bucket": "talks-66a5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056001313592:android:f7b18a5cc5a4d21e",
+        "android_client_info": {
+          "package_name": "com.classify.statastics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056001313592-9cn3na383vesq1cog3037dr359mco7jt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.classify.statastics",
+            "certificate_hash": "0ce9c584bcb7f0299b451801bffd589c96024706"
+          }
+        },
+        {
+          "client_id": "1056001313592-4qa9mjea7jg4el06p7q7artsai2457mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkyrbXpYwUORT2J3lGis4ye0omArDmhek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056001313592-4qa9mjea7jg4el06p7q7artsai2457mt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
